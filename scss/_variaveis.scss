@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "digital";
+  src: url("../fonts/digital7.eot");
+  src: url("../fonts/digital7.eot") format("embedded-opentype"), url("../fonts/digital7.woff2") format("woff2"),
+    url("../fonts/digital7.woff") format("woff"), url("../fonts/digital7.ttf") format("truetype"),
+    url("../fonts/digital7.svg#digital7") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*THEME DEFAULD RED COLORS*/
+$red-primaria: #b60000 !default;
+$red-secundaria: #da0000 !default;
+$red-fundo: #fafafa !default;
+$red-linhas: #bdbdbd !default;
+$red-complementar: #333 !default;
+
+/*THEME GREEN COLORS*/
+$green-primaria: #008000;
+$green-secundaria: #77ab59;
+$green-fundo: #dfe9c6;
+$green-linhas: ($green-secundaria);
+$green-complementar: #00695c;
+
+/*THEME BLUE COLORS*/
+$blue-primaria: #006ecc;
+$blue-secundaria: #009cff;
+$blue-fundo: #bbdefa;
+$blue-linhas: #0099cc;
+$blue-complementar: #ff6200;
+
+/*THEME PINK COLORS*/
+$pink-primaria: #e91e63;
+$pink-secundaria: #ff80ab;
+$pink-fundo: #fce4ec;
+$pink-linhas: #f8bbd0;
+$pink-complementar: #7e57c2;
+
+/*THEME DARK COLORS*/
+$dark-primaria: #2e2e2e;
+$dark-secundaria: #121212;
+$dark-fundo: #121212;
+$dark-linhas: #000;
+$dark-cinza: #444;
+$dark-complementar: #bb86fc;
+$dark-complementar2: #03dac6;
