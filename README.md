@@ -23,13 +23,19 @@ I worked on design and structure codes and Vinicius gave me a big help on Javasc
 
 <i>"Education is the passport to the future, for tomorrow belongs to those who prepare for it today" -Malcolm X</i>
 
-![print](https://github.com/marconip/simple-calendar/blob/master/img/print-red.jpg)
+![print](https://github.com/marconip/simple-calendar/blob/master/img/print-default.jpg)
 
-![print](https://github.com/marconip/simple-calendar/blob/master/img/print-pink.jpg)
+![print](https://github.com/marconip/simple-calendar/blob/master/img/print-notes.jpg)
+
+![print](https://github.com/marconip/simple-calendar/blob/master/img/print-alert.jpg)
+
+![print](https://github.com/marconip/simple-calendar/blob/master/img/print-red.jpg)
 
 ![print](https://github.com/marconip/simple-calendar/blob/master/img/print-green.jpg)
 
 ![print](https://github.com/marconip/simple-calendar/blob/master/img/print-blue.jpg)
+
+![print](https://github.com/marconip/simple-calendar/blob/master/img/print-pink.jpg)
 
 ![print](https://github.com/marconip/simple-calendar/blob/master/img/print-dark.jpg)
 
