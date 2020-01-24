@@ -2,7 +2,7 @@ function pega(x) {
     return document.querySelector(x);
 };
 
-$(function () {
+$(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
 
@@ -26,7 +26,7 @@ for (i = 1; i <= 31; i++) {
         pega('.dias').innerHTML += '<li data-toggle="tooltip" data-html="true">' + i + '</li>';
 }
 
-setInterval(function () {
+setInterval(function() {
     tempo = new Date();
     var hora = tempo.getHours();
     var min = tempo.getMinutes();
@@ -67,7 +67,7 @@ function funcAnotar() {
 function carregarTooltipDias() {
     const eventos = obterTodosEventos()
 
-    listaDias.forEach(function (e) {
+    listaDias.forEach(function(e) {
         e.dataset.originalTitle = ''
         const dia = parseInt(e.innerHTML)
         const evento = eventos.find(p => p.dia === dia)
@@ -103,28 +103,28 @@ function salvarEvento(novoEvento) {
     localStorage.setItem('eventos', JSON.stringify(eventos))
 }
 
-pega('.btn-sim').onclick = function () {
+pega('.btn-sim').onclick = function() {
     window.localStorage.clear();
     window.location.reload()
 }
 
-pega('.color-red').onclick = function () {
+pega('.color-red').onclick = function() {
     setarTema()
     localStorage.setItem('tema', 'red')
 }
-pega('.color-green').onclick = function () {
+pega('.color-green').onclick = function() {
     setarTema('green')
     localStorage.setItem('tema', 'green')
 }
-pega('.color-blue').onclick = function () {
+pega('.color-blue').onclick = function() {
     setarTema('blue')
     localStorage.setItem('tema', 'blue')
 }
-pega('.color-pink').onclick = function () {
+pega('.color-pink').onclick = function() {
     setarTema('pink')
     localStorage.setItem('tema', 'pink')
 }
-pega('.color-dark').onclick = function () {
+pega('.color-dark').onclick = function() {
     setarTema('dark')
     localStorage.setItem('tema', 'dark')
 }
@@ -142,6 +142,9 @@ function obterTodosEventos() {
 window.onload = () => {
     carregarTooltipDias()
 
-    const tema = localStorage.getItem('tema')
-    setarTema(tema)
+    const tema = localStorage.getItem('tema');
+    if (tema == null)
+        setarTema()
+    else
+        setarTema(tema);
 }
